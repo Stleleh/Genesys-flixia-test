@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffff;
+    font-family: work serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-sec{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+
+.logo{
+    height:63px;
+    width: auto;
+}
+
+.big-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.nav-ul{
+    display: flex;
+    width: 100%;
+    align-items: end;
+}
+
+li{
+    list-style: none;
+    width: 60%;
+}
+
+.nav-a{
+    text-decoration: none;
+    color: #13203C;
+    font-size:20px;
+    line-height: 38px;
+}
+
+.nav-a:hover{
+    text-decoration:2px underline;
+    color: #d09224;
+    transition: .2s;
+}
+
+.nav-login{
+   color: #13203C;
+   background-color: #ffff;
+   border: 2px solid #13203C;
+   font-size: 20px;
+   width: 85px;
+   height: 47px;
+   flex: none;
+   order:0;
+   flex-grow: 0;
+}
+
+.nav-login:hover{
+    color: #d09224;
+    background-color: #ffff;
+    border: 2px solid #d09224;
+}
+
+
+ form{
+    /**margin-bottom: 3em;*/
+}
+
+
+.search{
+    align-items: center;
+    background-color:transparent;
+    border:2px transparent;
+    border-bottom: 1px #ccc solid;
+    padding: 0 1em 0.5em 1.5em;
+    border-radius: 5px;
+    width: 80%;
+    color:#13203cde;
+    font-size: 1.1em;
+}
+
+.search-i{
+    width: 20px;
+    height: auto;
+    border: none;
+    background-color: transparent;
+    position: relative;
+    left: 30px;
+}
+
+.search:focus{
+    outline: none;
+}
+
+.search::placeholder{
+    color: #13203Cde;
+}
+
+
+.hero-sec{
+    width: 100%;
+}
+
+.hero-text{
+    font-weight: 700;
+    color: #13203C;
+    font-size: 95px;
+    margin: 10px;
+  /*  line-height: 153px;*/
+    text-align: center;
+}
+
+.hero-img{
+    width: 100%;
+}
+
+span{
+    color: #d09224;
+}
+
+.form-sect{
+    display: flex;
+    background-color: transparent;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.form{
+    background-color: transparent;
+    width: 40%;
+    margin: 80px;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txt1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #13203C;
+}
+
+.txt2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #1381D1B2;
+}
+
+.signup-l{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.google{
+    height: auto;
+    width: 50px;
+}
+
+.name{
+    margin-bottom: 35px;
+    background: #ffff;
+    border: 1px solid rgba(0,0,0,0.7);
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+}
+
+.email{
+    margin-bottom: 35px;
+    background: #ffff;
+    border: 1px solid rgba(0,0,0,0.7);
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+}
+
+.password{
+    margin-bottom: 20px;
+    background: #ffff;
+    border: 1px solid rgba(0,0,0,0.7);
+    border-radius: 5px;
+    height: 50px;
+    width: 100%;
+    padding: 20px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.check-txt{
+    font-size: 16px;
+}
+
+.register{
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    background-color: #13203C;
+    border: 1px solid #13203C;
+    width: 100%;
+    height: 50px;
+}
+
+.register:hover{
+    background-color: rgb(211, 211, 211);
+    color: #13203C;
+    border-radius: 2px solid #13203c;
+    transition-duration: .4s;
+}
+
+.img-side{
+    background-image: url(./img/disney-movie-schedule-2019-2020-marvel-star-wars-pixar-sequel-fox-next-year-1109990\ 1\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    width: 60%;
+    margin: 80px;
+}
+
+.form-img{
+ align-items: center;
+ height: auto;
+ width: 90%;
+ margin-top: 50%;
+ 
+}
+
+.h6-li{
+    color: #d09224;
+    text-decoration: none;
+}
+
+.h6-li:hover{
+    color: rgb(148, 69, 41);
+}
+
+.about{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-txt{
+    width: 60%;
+    margin: 80px;
+    color: #13203C;
+}
+
+.about-head{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.about-p{
+  text-align: justify;
+}
+
+.about-img{
+    width:40%;
+    margin: 80px;
+    border-radius: 3px;
+}
+
+.offer{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.offer-txt{
+    width: 60%;
+    margin: 80px;
+    color: #13203C;
+}
+
+.offer-head{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: end;
+}
+
+.offer-p{
+    text-align: justify;
+}
+
+.offer-img{
+    width:40%;
+    margin: 80px;
+    border-radius: 3px;
+}
